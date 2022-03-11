@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/Login"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="81dp"
+        android:text="LOGIN"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <EditText
+        android:id="@+id/ade1"
+        android:layout_width="299dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/Login"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="Masukkan Username"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <EditText
+        android:id="@+id/ade2"
+        android:layout_width="299dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/ade1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:drawableStart="@drawable/ic_baseline_lock_open_24"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="Masukkan Password"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ade1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:text="LOGIN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn1"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="-18dp"
+        android:background="@android:color/transparent"
+        android:text="@string/button_not_register"
+        android:textAllCaps="false"
+        android:textColor="#92A7AB"
+        android:textSize="12sp"
+        app:cornerRadius="50dp" />
+
+
+</RelativeLayout>

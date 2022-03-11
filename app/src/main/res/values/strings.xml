@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Moedik</string>
+    <string name="button_not_register">Belum Memiliki Akun? <font color='red'>Daftar Sekarang</font></string>
+    <string name="Pontianak">pontianak</string>
+    <string name="Nanga_Pinoh">Nanga Pinoh</string>
+    <string name="Jumlah_org">1 Orang</string>
+    <string name="Jumlah_org2">2 orang</string>
+</resources>
